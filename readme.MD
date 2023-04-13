@@ -1,9 +1,17 @@
 truffle is a tool to create flatten file having openzeppelin libs contract.
 
 # truffle prerequirities
-npm install truffle -g
-npm install truffle-flattener -g
+```
+sudo apt install npm
+```
 
+```
+npm install truffle -g
+```
+
+```
+npm install truffle-flattener -g
+```
 
 # Creating flatten file
 ```
