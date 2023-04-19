@@ -30,6 +30,6 @@ contract NishlandEstate is ERC721PresetMinterPauserAutoId, Ownable {
      *  Prevents people from accidentally sending funds here.
      */
     receive () external payable {
-      require(false, "This contract is for minting VL F-NFTs.  It does not allow for receiving payments.");
+      require(false, "This contract is for minting.  It does not allow for receiving payments.");
     }
 }
