@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 contract ThorneIT0000012 is ERC721PresetMinterPauserAutoId, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIdCounter;
-    uint256 private _maxSupply = 1;
+    uint256 private _maxSupply = 499;
     
     constructor ()
         ERC721PresetMinterPauserAutoId(
